@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T21:27:52.603Z" agent="5.0 (Windows)" etag="xxFM3VxOXnHOe3wghaU_" version="19.0.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-07-20T21:46:05.096Z" agent="5.0 (Windows)" etag="cATv03QGQ3V5kats2LSs" version="19.0.0" type="github" pages="2">
   <diagram name="Systeme" id="7ztR6pGg5xj3cJn3mz38">
     <mxGraphModel dx="868" dy="448" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -1063,7 +1063,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="b5rQXbUvAPs85DydFoUU-41" value="Gérer rôles" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="b5rQXbUvAPs85DydFoUU-39" vertex="1">
+        <mxCell id="b5rQXbUvAPs85DydFoUU-41" value="Gérer rôles interne à la compagnie" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="b5rQXbUvAPs85DydFoUU-39" vertex="1">
           <mxGeometry x="33.00108910891089" y="30" width="190.0990099009901" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b5rQXbUvAPs85DydFoUU-42" value="Attribuer rôles utilisateurs/employés interne" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="b5rQXbUvAPs85DydFoUU-39" vertex="1">
@@ -1216,30 +1216,44 @@
         <mxCell id="URq3LJ6IlfaEt6JYX526-30" value="Gérer Facturation" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="URq3LJ6IlfaEt6JYX526-29" vertex="1">
           <mxGeometry width="190.0990099009901" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="URq3LJ6IlfaEt6JYX526-31" value="Invalider" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="URq3LJ6IlfaEt6JYX526-29" vertex="1">
+        <mxCell id="URq3LJ6IlfaEt6JYX526-31" value="Envoyer facture" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="URq3LJ6IlfaEt6JYX526-29" vertex="1">
           <mxGeometry x="49.410000000000025" y="130" width="190.0990099009901" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="URq3LJ6IlfaEt6JYX526-33" value="Créer" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="URq3LJ6IlfaEt6JYX526-29" vertex="1">
+        <mxCell id="URq3LJ6IlfaEt6JYX526-33" value="Créer facture sur le/les services réalisées" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" parent="URq3LJ6IlfaEt6JYX526-29" vertex="1">
           <mxGeometry x="49.4162376237624" y="70" width="190.0990099009901" height="40" as="geometry" />
         </mxCell>
         <mxCell id="URq3LJ6IlfaEt6JYX526-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=line;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="URq3LJ6IlfaEt6JYX526-29" target="URq3LJ6IlfaEt6JYX526-33" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="29.99910891089104" y="110" as="targetPoint" />
-            <mxPoint x="29.99910891089104" y="40" as="sourcePoint" />
+            <mxPoint x="23.1730693069307" y="40" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="30" y="40" />
-              <mxPoint x="30" y="100" />
+              <mxPoint x="23" y="40" />
+              <mxPoint x="23" y="90" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="URq3LJ6IlfaEt6JYX526-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=line;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.153;exitY=1.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="URq3LJ6IlfaEt6JYX526-29" source="URq3LJ6IlfaEt6JYX526-30" target="URq3LJ6IlfaEt6JYX526-31" edge="1">
+        <mxCell id="URq3LJ6IlfaEt6JYX526-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;jumpStyle=line;orthogonalLoop=1;jettySize=auto;html=1;startArrow=none;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="URq3LJ6IlfaEt6JYX526-29" target="URq3LJ6IlfaEt6JYX526-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="70.0062376237625" y="111" as="targetPoint" />
-            <mxPoint x="39.99910891089104" y="50" as="sourcePoint" />
+            <mxPoint x="23.1730693069307" y="40" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="30" y="150" />
+              <mxPoint x="23" y="40" />
+              <mxPoint x="23" y="150" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="f5FUjHJKqDjRhxKiUyiX-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.122;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="URq3LJ6IlfaEt6JYX526-29" source="f5FUjHJKqDjRhxKiUyiX-1" target="URq3LJ6IlfaEt6JYX526-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="23" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5FUjHJKqDjRhxKiUyiX-1" value="Invalider" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" vertex="1" parent="URq3LJ6IlfaEt6JYX526-29">
+          <mxGeometry x="49.410000000000025" y="190" width="190.0990099009901" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="f5FUjHJKqDjRhxKiUyiX-7" value="Modifier Statut à Paiement recu" style="rounded=0;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;fontSize=11;" vertex="1" parent="URq3LJ6IlfaEt6JYX526-28">
+          <mxGeometry x="74.11693069306932" y="280" width="190.0990099009901" height="40" as="geometry" />
         </mxCell>
         <mxCell id="URq3LJ6IlfaEt6JYX526-39" value="" style="swimlane;startSize=20;rounded=0;shadow=0;glass=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;pointerEvents=1;fontFamily=Verdana;strokeColor=#CCCCCC;fillColor=none;fontSize=11;swimlaneLine=0;" parent="URq3LJ6IlfaEt6JYX526-3" vertex="1">
           <mxGeometry x="636.24" y="20" width="318.12" height="330" as="geometry">
